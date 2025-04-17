@@ -1,0 +1,27 @@
+#board {
+    font-family: Iosevka, 'Fira Code', 'Cascadia Code', Consolas, monospace;
+    font-size: 16pt;
+}
+
+#board-box {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#history-box {
+    width: 10em;
+    height: 80%;
+    border-radius: 1em;
+    margin: 5%;
+    padding: 1em;
+    background-color: #d0d8df;
+    box-shadow: '5px 5px 5px #888';
+}
+
+#hist-lines {
+    resize: none;
+    width: 90%;
+    height: 90%;
+    font-family: Iosevka, 'Fira Code', 'Cascadia Code', Consolas, monospace;
+    font-size: 12pt;
+}
